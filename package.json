@@ -1,0 +1,39 @@
+{
+  "name": "Elix",
+  "version": "1.0.0",
+  "description": "Minecraft node.js protocol implementation",
+  "main": "elix.js",
+  "dependencies": {
+    "buffertools": "^2.1.4",
+    "long": "^3.1.0",
+    "net": "^1.0.2",
+    "sync-request": "^3.0.1",
+    "utf8": "^2.1.1",
+    "varint": "^4.0.0",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Armax/Elix.git"
+  },
+  "keywords": [
+    "Minecraft",
+    "Elix",
+    "JS",
+    "Library",
+    "Multiplayer",
+    "Server",
+    "Client",
+    "Gravy"
+  ],
+  "author": "Arm4x",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Armax/Elix/issues"
+  },
+  "homepage": "https://github.com/Armax/Elix#readme"
+}
