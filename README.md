@@ -15,7 +15,7 @@ Elix.Connect('Elix','','server_ip',25565,false)
 The last parameter is for debug mode
 
 ### Functions
-<br>
+
 ##### Send a chat message
 ```javascript
 Elix.Chat(msg)
@@ -54,10 +54,6 @@ MCData.ReadInt(buffer, voffset)
 ##### Read a float from a buffer, voffset is buffer offset
 ```javascript
 MCData.ReadFloat(buffer, voffset)
-```
-<br>##### Read a byte from a buffer, voffset is buffer offset
-```javascript
-MCData.ReadByte(buffer, voffset)
 ```
 <br>
 ##### Read a double from a buffer, voffset is buffer offset
